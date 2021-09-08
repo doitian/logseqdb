@@ -163,6 +163,4 @@
 
  ;; the initial interval after the first successful review of a card (default 4)
  ;; :srs/initial-interval 4
-
- :date-formatter "yyyy-MM-dd"
- }
+}
