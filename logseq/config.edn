@@ -59,7 +59,7 @@
 
  ;; Tell logseq to use a specific folder in the repo as a default location for journals
  ;; if not specified, journals are stored in `journals` directory
- ;; :journals-directory "your-directory"
+ :journals-directory "periodic"
 
  ;; Set this to true will convert
  ;; `[[Grant Ideas]]` to `[[file:./grant_ideas.org][Grant Ideas]]` for org-mode
@@ -163,4 +163,6 @@
 
  ;; the initial interval after the first successful review of a card (default 4)
  ;; :srs/initial-interval 4
+
+ :date-formatter "yyyy-MM-dd"
  }
